@@ -42,6 +42,12 @@ For the closest match to real Apple Notes:
 
 Built by Alex Simion. Inspired by Apple Notes on macOS Sonoma and iOS 17.
 
+## Support
+
+If you enjoy the theme and want to support the work:
+
+<a href="https://buymeacoffee.com/alexxozo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="45"></a>
+
 ## License
 
 [MIT](LICENSE)
