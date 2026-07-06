@@ -113,15 +113,15 @@ body {
   border-bottom: 1px solid var(--divider-color);
 }
 
-.workspace-tab-header {
-  background: transparent !important;
-  border: none !important;
+body .workspace-tab-header {
+  background: transparent;
+  border: none;
   border-radius: 6px;
   margin: 4px 2px;
 }
 
-.workspace-tab-header.is-active {
-  background: var(--background-primary) !important;
+body .workspace-tab-header.is-active {
+  background: var(--background-primary);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
 }
 
@@ -150,10 +150,10 @@ body {
   background-color: var(--background-modifier-hover);
 }
 
-.nav-file-title.is-active,
-.nav-file-title.is-active:hover {
-  background-color: var(--interactive-accent) !important;
-  color: var(--text-on-accent) !important;
+body .nav-file-title.is-active,
+body .nav-file-title.is-active:hover {
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
 }
 
 .nav-file-title.is-active .nav-file-title-content {
@@ -197,43 +197,40 @@ body {
 }
 
 /* Kill the tall bottom "scroll runway" Obsidian adds under the last line */
-.cm-editor .cm-contentContainer,
-.cm-editor .cm-sizer {
-  padding-bottom: 0 !important;
+body .cm-editor .cm-contentContainer,
+body .cm-editor .cm-sizer {
+  padding-bottom: 0;
 }
 
-.cm-editor .cm-content {
-  padding-bottom: 24px !important;
+body .cm-editor .cm-content {
+  padding-bottom: 24px;
+  padding-left: 0;
 }
 
 /* Full-width editor — override "readable line length" so text fills the pane */
-.markdown-source-view.is-readable-line-width .cm-sizer,
-.markdown-preview-view.is-readable-line-width .markdown-preview-sizer,
-.markdown-source-view .cm-sizer,
-.markdown-preview-view .markdown-preview-sizer,
-.cm-editor .cm-contentContainer,
-.cm-editor .cm-content,
-.cm-editor .cm-line {
-  max-width: 100% !important;
-  width: 100% !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+body .markdown-source-view.is-readable-line-width .cm-sizer,
+body .markdown-preview-view.is-readable-line-width .markdown-preview-sizer,
+body .markdown-source-view .cm-sizer,
+body .markdown-preview-view .markdown-preview-sizer,
+body .cm-editor .cm-contentContainer,
+body .cm-editor .cm-content,
+body .cm-editor .cm-line {
+  max-width: 100%;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-.workspace-leaf-content[data-type="markdown"] .view-content {
-  padding: 0 !important;
+body .workspace-leaf-content[data-type="markdown"] .view-content {
+  padding: 0;
 }
 
 /* Hide the CodeMirror gutter (line numbers, fold markers) */
-.cm-editor .cm-gutters,
-.markdown-source-view .cm-gutters {
-  display: none !important;
-  border: none !important;
-  background: transparent !important;
-}
-
-.cm-editor .cm-content {
-  padding-left: 0 !important;
+body .cm-editor .cm-gutters,
+body .markdown-source-view .cm-gutters {
+  display: none;
+  border: none;
+  background: transparent;
 }
 
 .markdown-preview-view {
@@ -306,8 +303,6 @@ body {
 .internal-link {
   color: var(--text-accent);
   text-decoration: underline;
-  text-underline-offset: 2px;
-  text-decoration-thickness: 1px;
 }
 
 /* Blockquotes — subtle left border */
